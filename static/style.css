@@ -1,0 +1,33 @@
+body{
+    background-image: url('background.png');
+    background-size: cover;
+    
+}
+
+.text{
+    text-align: center; 
+    font-size: 1.9vw;
+    font-family:Copperplate Gothic Light; 
+    color: rgb(104, 3, 66);
+}
+
+.input{
+    text-align: center;
+}
+
+#uploadImage{
+    width: 200px;
+}
+
+.button{
+    background-color: rgb(104, 3, 66);
+    border-radius: 3px;
+    border-style: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: burlywood;
+    font-family:Copperplate Gothic Light;
+    font-weight: bold;
+}
+
+

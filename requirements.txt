@@ -1,0 +1,7 @@
+numpy
+pandas
+random
+Flask
+opencv-python
+tensorflow
+scikit-learn

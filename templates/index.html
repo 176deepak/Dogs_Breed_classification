@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Identify Dogs Breed</title>
+    <link rel="icon" type="image/x-icon" href="\static\favicon.ico">
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+    <script src="{{url_for('static', filename='actions.js')}}" type="text/javascript"></script>
+</head>
+
+<body>
+    <div class="text">
+        <h1>Dogs Breed Classification Model</h1>
+        <h1>Identify Dog Breed</h1>
+    </div>
+    <form action="", method="post" enctype="multipart/form-data">
+        <div class="input">
+            <div>
+                <img id="uploadPreview" style="width: 350px;"/>
+            </div>
+            <div>
+                <input id="uploadImage" type="file" name="myPhoto" accept="image/*" onchange="PreviewImage();"/>
+                <button class="button" type="submit">Submit</button>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
